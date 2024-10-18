@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(209, 208, 208);
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+.wrapper{
+    width: 300px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10vh;
+    margin-left: 85vh;
+}
+
+
+.container{
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+}
+
+.city{
+    border-radius: 5px;
+    height: 20px;
+    
+}
+
+.search-btn{
+    border-radius: 5px;
+    height: 28px;
+    border: none;
+    background-color: rgb(155, 177, 236);
+    color: white;
+
+}
+.search-btn:hover{
+background-color: rgb(7, 48, 102);
+}
+
+
+
+.min-max-container{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.temp{
+    color: turquoise;
+}
+
